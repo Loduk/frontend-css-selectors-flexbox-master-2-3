@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Saira:wght@300;400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Saira', sans-serif, monospace;
+    font-size: 16px;
+    line-height: 1.2;
+    text-align: center;
+    background-color: #f2f2db;
+}
+
+h1, 
+h3 {
+    margin-bottom: 15px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.container-one {
+    margin: 0 auto;
+    padding: 0 40px;
+}
+
+.navbar {
+    background: rgb(1, 17, 35);
+    color: white;
+    height: 60px;
+}
+
+.navbar .logo {
+    font-size: x-large;
+    
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    
+}
+
+.logo:hover {
+    color: #b67272;
+}
+
+.navbar a:hover {
+    color:#b67272;
+}
+.navbar .container-one {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.navbar ul {
+    display: flex;
+}
+
+.navbar ul li {
+    margin-left: 20px;
+}
+
+.header {
+    margin: 40px;
+    min-height: 100px;
+}
+
+.header h1 {
+    font-size: 2rem;
+    line-height: 1;
+}
+
+.boxes .container-three {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex: 0 3 280px;
+    flex-basis: 280px;
+    height: 350px;
+    padding: 20px;
+    background-color: #b67272;
+    margin: 0 30px;
+    border-radius: 4px;
+}
+
+
+
+
+
+/* #020125
+   #f2f2db
+   #b67272 */
